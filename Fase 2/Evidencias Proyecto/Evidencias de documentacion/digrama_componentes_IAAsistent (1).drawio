@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Página-1" id="yb9XRRiX3hf434v795kd">
+    <mxGraphModel dx="1636" dy="1241" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ODB1KbcBICvv_btQSE2s-7" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;startSize=8;endSize=8;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.165;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ODB1KbcBICvv_btQSE2s-1" target="ODB1KbcBICvv_btQSE2s-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-11" value="Comunicación IPC (Invoke / MessageChannel)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;convertToSvg=0;" vertex="1" connectable="0" parent="ODB1KbcBICvv_btQSE2s-7">
+          <mxGeometry x="-0.1327" relative="1" as="geometry">
+            <mxPoint x="1" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-1" value="Electron Frontend (renderer + main)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="342" y="-102" width="357" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;startSize=8;endSize=8;" edge="1" parent="1" source="ODB1KbcBICvv_btQSE2s-2" target="ODB1KbcBICvv_btQSE2s-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-15" value="Consultas y almacenamiento SQL (INSERT / SELECT / UPDATE)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="ODB1KbcBICvv_btQSE2s-8">
+          <mxGeometry x="-0.0355" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;startSize=8;endSize=8;dashed=1;dashPattern=1 4;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ODB1KbcBICvv_btQSE2s-2" target="ODB1KbcBICvv_btQSE2s-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-16" value="Solicitud HTTP / REST (GET / POST)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="ODB1KbcBICvv_btQSE2s-9">
+          <mxGeometry x="-0.0345" y="-2" relative="1" as="geometry">
+            <mxPoint x="15" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;startSize=8;endSize=8;entryX=0.888;entryY=0.945;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="ODB1KbcBICvv_btQSE2s-2" target="ODB1KbcBICvv_btQSE2s-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-14" value="Respuesta procesada (texto, audio, datos)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="ODB1KbcBICvv_btQSE2s-13">
+          <mxGeometry x="-0.2267" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-2" value="Python Bot (chatbot.py)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="401" y="147" width="257" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-3" value="Base de datos MySQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="469.5" y="423" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=15;startSize=8;endSize=8;exitX=0;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="ODB1KbcBICvv_btQSE2s-4" target="ODB1KbcBICvv_btQSE2s-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="925" y="71" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-18" value="Respuesta JSON (texto o audio)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="ODB1KbcBICvv_btQSE2s-17">
+          <mxGeometry x="-0.381" y="3" relative="1" as="geometry">
+            <mxPoint x="-80" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-4" value="APIs externas (Twitch IRC, Gemini, ElevenLabs, Google TTS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1119" y="147" width="187" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-6" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;startSize=8;endSize=8;exitX=0.5;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ODB1KbcBICvv_btQSE2s-5" target="ODB1KbcBICvv_btQSE2s-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.5" y="-261" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-10" value="Interacción por Chat o Comando (!IA)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="ODB1KbcBICvv_btQSE2s-6">
+          <mxGeometry x="0.399" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODB1KbcBICvv_btQSE2s-5" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Usuario / Twitch Chat&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#E3C800,#E7B400);fontColor=#000000;strokeColor=#B09500;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460.5" y="-325" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
